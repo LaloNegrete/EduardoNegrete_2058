@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(20, 19, 19);
+}
+
+
+#contenedor-principal{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(20, 19, 19);
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#contenedor-formulario{
+    width: 50%;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 5px;
+    height: 460px;
+}
+
+#contenido-titulos{
+    background-color: black;
+}
+
+#contenedor-formulario >#contenido-titulos > h2{
+color: #70b231;
+padding-top: 10px;
+}
+
+#contenedor-formulario > #contenido-titulos> h4{
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    }
+
+#contenedor-formulario form{
+    margin: 0px auto;
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.form-campos-text:first-child{
+    margin-top: 20px;
+}
+
+form > .form-campos-text, .form-campos-pass{
+    width: 80%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+#boton-enviar{
+    float: left;
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: #70b231;
+}
+
+#boton-enviar:hover{
+    background-color: #70b231;
+    color: white;
+    cursor: pointer;
+}
+
+#mensaje-signup{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #70b231;
+    width: 100%;
+    margin: 0px auto;
+}
+
+#contenedor-formulario > p{
+    float: left;
+    margin-top: 12px;
+    font-size: 15px;
+    padding-left: 85px;
+}
+
+#contenedor-formulario > p >a{
+    color: #529125;
+}

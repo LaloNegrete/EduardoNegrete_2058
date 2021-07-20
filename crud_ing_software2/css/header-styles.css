@@ -1,0 +1,145 @@
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+
+a:visited{
+    color: greenyellow;
+    
+}
+
+a:hover{
+    color: greenyellow;
+    
+}
+
+/* ESTILOS DEL MENU: */
+
+header{
+    width: 100%;
+    background-color: #333333;
+    height: 70px;
+}
+
+#contenedor-header{
+    width: 90%;
+    height: 70px;
+    margin: 0px auto;
+}
+
+header #logotipo{
+    width: 10%;
+    height: 70px;
+    float: left;
+}
+
+header #logotipo img{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+}
+/* Estilos de el login */
+form{
+    width: 45%;
+    display: block;
+    float: left;
+}
+
+input[type="text"],
+select{
+    float: left;
+    margin-top: 27px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+input[type="password"],
+select{
+    margin-top: 10px;
+    float: left;
+}
+
+form > .boton-login{
+    float: left;
+    border-radius: 5px;
+    background-color: #70b231;
+    color: white;
+    width: 100px;
+    margin-left: 20px;
+    padding: 5px;
+    margin-top: -13px;
+}
+    
+
+
+
+
+
+
+/* ESTILOS DE EL MENU */
+
+header h1 a{
+    display: block;    
+    float: left;
+    width: 15%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: white !important; 
+    cursor: pointer;
+    font-family:monospace;
+    font-size: 35px;
+}
+
+header h1 a:hover{
+    color: yellowgreen !important; 
+}
+
+#menu{ 
+    width: 95%;
+    height: 70px;
+    margin: 0px auto;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    display: block;
+    width: 100%;
+}
+
+#menu > ul > li{
+    line-height: 70px;
+    float: right;
+}
+
+#menu > ul > li > a{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#menu > ul > li:hover{
+    background-color: #70b231;
+    box-shadow: 0px 0px 4px #70b231 inset;
+    cursor: pointer;
+}
+
+#menu > ul > li:hover a{
+    color: white;
+}
+
